@@ -1,0 +1,10 @@
+<%= form_tag students_create_path do %>
+  <%= label_tag(:student_name, "Student Name: ") %>
+  <%= text_field_tag(:student_name) %>
+  <%= label_tag(:student_id, "Student ID: ") %>
+  <%= text_field_tag(:student_id) %>
+  <%= label_tag(:student_grade, "Student Grade: ") %>
+  <%= text_field_tag(:student_grade) %>
+
+  <%= submit_tag("Submit") %>
+<% end %>
